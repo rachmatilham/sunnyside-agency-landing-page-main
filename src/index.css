@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --soft-red: 7deg 99% 70%;
+    --yellow: 51deg 100% 49%;
+    --text-graphic-design: 167deg 40% 24%;
+    --text-photography: 198deg 62% 26%;
+    --footer: 168deg 34% 41%;
+    --very-dark-desaturated-blue: 212deg 27% 19%;
+    --very-dark-grayish-blue: 213deg 9% 39%;
+    --dark-grayish-blue: 232deg 10% 55%;
+    --grayish-blue: 210deg 4% 67%;
+    --white: 0deg 0% 100%;
+  }
+  body {
+    font-size: 18px;
+  }
+  main a {
+    @apply font-barlow;
+  }
+}
+@layer components {
+  .nav-link {
+    @apply block mt-8 md:mt-0 text-darkGrayishBlue md:text-white;
+  }
+
+  .text-container-1 {
+    @apply py-16 px-6 md:pt-[5%] md:pb-0 md:px-[4%] lg:pt-[11.2%] lg:px-[9.5%] text-center md:text-left md:w-1/2;
+  }
+  .article-headings {
+    @apply px-2 md:px-0 font-fraunces text-[2rem] leading-10 lg:text-[2.55rem] md:leading-[2.9rem] font-black text-veryDarkDesaturatedBlue;
+  }
+  .article-paragraph-1 {
+    @apply mt-[22px] md:mt-9 font-barlow leading-[1.87rem] text-darkGrayishBlue;
+  }
+  .article-link {
+    @apply inline-block mt-8 md:mt-[9%] text-[1.05rem] md:text-[1.03rem] font-black font-fraunces uppercase text-veryDarkDesaturatedBlue relative after:w-[138px] after:h-[10px] after:rounded-full after:absolute after:-z-10 after:bottom-0 after:-left-2;
+  }
+
+  .text-container-2 {
+    @apply h-[600px] md:w-1/2 pt-[395px] md:pt-[39%] lg:pt-[32%] xl:pt-[27.3%] 2xl:pt-[21%] px-5 md:px-0 text-center bg-cover md:bg-center;
+  }
+  .article-paragraph-2 {
+    @apply mt-6 md:mt-5 md:mx-auto md:w-[48%] leading-[1.7rem] font-barlow text-base;
+  }
+
+  .clients {
+    @apply pt-[60px] pb-[6px] md:pt-20 md:pb-0 md:w-1/4;
+  }
+  .client-img {
+    @apply w-[72px] mx-auto rounded-full;
+  }
+  .client-p {
+    @apply mt-[30px] md:mt-14 font-barlow leading-8 text-veryDarkGrayishBlue;
+  }
+  .client-name {
+    @apply mt-[30px] md:mt-[20%] font-fraunces font-black text-veryDarkDesaturatedBlue;
+  }
+  .client-title {
+    @apply mt-[9px] font-barlow text-sm text-grayishBlue;
+  }
+
+  .footer-icon {
+    @apply fill-[#2C7566] hover:cursor-pointer hover:fill-white;
+  }
+}
