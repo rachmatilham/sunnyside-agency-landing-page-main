@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/)
+- Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-5UxD2eqZzW)
 - Live Site URL: [Github Pages](https://rachmatilham.github.io/sunnyside-agency-landing-page-main/)
 
 ## My process
